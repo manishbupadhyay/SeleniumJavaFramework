@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="57336" started-at="2020-05-05T00:49:58 IST" finished-at="2020-05-05T00:50:55 IST">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="57336" started-at="2020-05-05T00:49:58 IST" finished-at="2020-05-05T00:50:55 IST">
+      <class name="SeleniumTest.TestNG_Demo">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:SeleniumTest.TestNG_Demo@4e7dc304]" name="setUpTest" is-config="true" duration-ms="6798" started-at="2020-05-05T00:49:58 IST" finished-at="2020-05-05T00:50:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:SeleniumTest.TestNG_Demo@4e7dc304]" name="googleSearch" duration-ms="12912" started-at="2020-05-05T00:50:10 IST" finished-at="2020-05-05T00:50:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:SeleniumTest.TestNG_Demo@4e7dc304]" name="tearDownTest" is-config="true" duration-ms="12139" started-at="2020-05-05T00:50:30 IST" finished-at="2020-05-05T00:50:43 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- SeleniumTest.TestNG_Demo -->
+      <class name="SeleniumTest.TestNG_Demo2">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:SeleniumTest.TestNG_Demo2@64729b1e]" name="setUpTest" is-config="true" duration-ms="5136" started-at="2020-05-05T00:50:05 IST" finished-at="2020-05-05T00:50:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTest -->
+        <test-method status="PASS" signature="googleSearch3()[pri:0, instance:SeleniumTest.TestNG_Demo2@64729b1e]" name="googleSearch3" duration-ms="20707" started-at="2020-05-05T00:50:10 IST" finished-at="2020-05-05T00:50:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- googleSearch3 -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:SeleniumTest.TestNG_Demo2@64729b1e]" name="tearDownTest" is-config="true" duration-ms="12482" started-at="2020-05-05T00:50:43 IST" finished-at="2020-05-05T00:50:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTest -->
+      </class> <!-- SeleniumTest.TestNG_Demo2 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite1 -->
+</testng-results>
