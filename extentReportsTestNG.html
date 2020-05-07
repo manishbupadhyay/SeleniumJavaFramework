@@ -52,7 +52,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>May 8, 2020 01:36:51 AM</span>
+			<span class='label blue darken-3 suite-start-time'>May 8, 2020 01:52:02 AM</span>
 			</a>
 		</ul>
 	</div>
@@ -68,6 +68,7 @@
 				</a>
 				<ul id='tests-toggle' class='dropdown-content'>
 										<li status='pass'><a href='#!'>Pass <i class='material-icons green-text'>check_circle</i></a></li>
+					<li status='fail'><a href='#!'>Fail <i class='material-icons red-text'>cancel</i></a></li>
 					<li class='divider'></li>
 					<li status='clear' clear='true'><a href='#!'>Clear Filters <i class='material-icons'>clear</i></a></li>
 				</ul>
@@ -110,10 +111,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='66.667%'><span class='strong'>2</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
+                    <span class='strong tooltipped' data-position='top' data-tooltip='33.333%'>1</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> skipped
                 </div>
             </div>
         </div>
@@ -134,13 +135,13 @@
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Google Search Test One with TestNG</span>
-						<span class='test-time'>May 8, 2020 01:36:51 AM</span>
+						<span class='test-time'>May 8, 2020 01:52:36 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>May 8, 2020 01:36:51 AM</span>
-	<span class='label end-time'>May 8, 2020 01:36:51 AM</span>
+	<span class='label start-time'>May 8, 2020 01:52:36 AM</span>
+	<span class='label end-time'>May 8, 2020 01:52:36 AM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+8ms</span>
 </div>
 <div class='test-desc'>This is a test to validate google search </div>
@@ -156,7 +157,7 @@
 		<tbody>
 			<tr class='log' status='info'>
 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>1:36:51 AM</td>
+				<td class='timestamp'>1:52:36 AM</td>
 				<td class='step-details'>
 						This step shows usages of logs
 					
@@ -164,7 +165,7 @@
 			</tr>
 			<tr class='log' status='info'>
 				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
-				<td class='timestamp'>1:36:51 AM</td>
+				<td class='timestamp'>1:52:36 AM</td>
 				<td class='step-details'>
 						This step shows usage of info details
 					
@@ -172,10 +173,114 @@
 			</tr>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>1:36:51 AM</td>
+				<td class='timestamp'>1:52:36 AM</td>
 				<td class='step-details'>
 						details
 					<img class='r-img' onerror='this.style.display="none"' data-featherlight='screenshot.png' src='screenshot.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>Google Search Test Two with TestNG</span>
+						<span class='test-time'>May 8, 2020 01:52:36 AM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 8, 2020 01:52:36 AM</span>
+	<span class='label end-time'>May 8, 2020 01:52:36 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+1ms</span>
+</div>
+<div class='test-desc'>This is a test to validate google search </div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>1:52:36 AM</td>
+				<td class='step-details'>
+						This step shows usages of logs
+					
+				</td>
+			</tr>
+			<tr class='log' status='info'>
+				<td class='status info' title='info' alt='info'><i class='material-icons'>info_outline</i></td>
+				<td class='timestamp'>1:52:36 AM</td>
+				<td class='step-details'>
+						This step shows usage of info details
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:52:36 AM</td>
+				<td class='step-details'>
+						details
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='screenshot.png' src='screenshot.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>Google Search with TestNG</span>
+						<span class='test-time'>May 8, 2020 01:52:36 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>May 8, 2020 01:52:36 AM</span>
+	<span class='label end-time'>May 8, 2020 01:53:00 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 24s+751ms</span>
+</div>
+<div class='test-desc'>This is a test to validate google search </div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>1:52:42 AM</td>
+				<td class='step-details'>
+						Navigated to google.com
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>1:52:43 AM</td>
+				<td class='step-details'>
+						Entered text in textbox
+					
+				</td>
+			</tr>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>1:53:00 AM</td>
+				<td class='step-details'>
+						Pressed keyboard enter key
+					
 				</td>
 			</tr>
 		</tbody>
@@ -211,7 +316,7 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>3</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -223,19 +328,19 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>May 8, 2020 01:36:51 AM</div>
+					<div class='panel-lead'>May 8, 2020 01:52:02 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>May 8, 2020 01:36:52 AM</div>
+			 		<div class='panel-lead'>May 8, 2020 01:53:17 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 0s+730ms</div>
+					<div class='panel-lead'>0h 1m 14s+230ms</div>
 				</div>
 			</div>
 		</div>
@@ -246,14 +351,14 @@
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 1,
-				passParent: 1,
-				failParent: 0,
+                parentCount: 3,
+				passParent: 2,
+				failParent: 1,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 0,
+				exceptionsParent: 1,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -278,7 +383,7 @@
 		</script>
 		<script>
 			var timeline = {
-			        "Google Search Test One with TestNG":0.008
+			        "Google Search Test One with TestNG":0.008,"Google Search Test Two with TestNG":0.001,"Google Search with TestNG":24.751
 			};
 		</script>
 	
