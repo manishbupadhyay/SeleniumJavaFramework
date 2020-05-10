@@ -1,41 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="73082" started-at="2020-05-08T01:52:03 IST" finished-at="2020-05-08T01:53:16 IST">
+  <suite name="Default suite" duration-ms="113610" started-at="2020-05-11T00:36:20 IST" finished-at="2020-05-11T00:38:13 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="73082" started-at="2020-05-08T01:52:03 IST" finished-at="2020-05-08T01:53:16 IST">
-      <class name="SeleniumTest.ExtentReportsDemoWithTestNG">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@1d29cf23]" name="setUp" is-config="true" duration-ms="230" started-at="2020-05-08T01:52:02 IST" finished-at="2020-05-08T01:52:03 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@1d29cf23]" name="setUpTest" is-config="true" duration-ms="32890" started-at="2020-05-08T01:52:03 IST" finished-at="2020-05-08T01:52:36 IST">
+    <test name="Default test" duration-ms="113610" started-at="2020-05-11T00:36:20 IST" finished-at="2020-05-11T00:38:13 IST">
+      <class name="SeleniumTest.TestNG_Demo_PropertiesFile">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:SeleniumTest.TestNG_Demo_PropertiesFile@167fdd33]" name="setUpTest" is-config="true" duration-ms="67352" started-at="2020-05-11T00:36:20 IST" finished-at="2020-05-11T00:37:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@1d29cf23]" name="test1" duration-ms="26" started-at="2020-05-08T01:52:36 IST" finished-at="2020-05-08T01:52:36 IST">
+        <test-method status="PASS" signature="googleSearch()[pri:0, instance:SeleniumTest.TestNG_Demo_PropertiesFile@167fdd33]" name="googleSearch" duration-ms="24830" started-at="2020-05-11T00:37:27 IST" finished-at="2020-05-11T00:37:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@1d29cf23]" name="test2" duration-ms="5" started-at="2020-05-08T01:52:36 IST" finished-at="2020-05-08T01:52:36 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="testExtentReportWithTestNG()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@1d29cf23]" name="testExtentReportWithTestNG" duration-ms="24758" started-at="2020-05-08T01:52:36 IST" finished-at="2020-05-08T01:53:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testExtentReportWithTestNG -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@1d29cf23]" name="tearDownTest" is-config="true" duration-ms="15266" started-at="2020-05-08T01:53:00 IST" finished-at="2020-05-08T01:53:16 IST">
+        </test-method> <!-- googleSearch -->
+        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:SeleniumTest.TestNG_Demo_PropertiesFile@167fdd33]" name="tearDownTest" is-config="true" duration-ms="21374" started-at="2020-05-11T00:37:52 IST" finished-at="2020-05-11T00:38:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@1d29cf23]" name="tearDown" is-config="true" duration-ms="1460" started-at="2020-05-08T01:53:17 IST" finished-at="2020-05-08T01:53:18 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumTest.ExtentReportsDemoWithTestNG -->
+      </class> <!-- SeleniumTest.TestNG_Demo_PropertiesFile -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
