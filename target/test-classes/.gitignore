@@ -1,2 +1,5 @@
-/config/
+/PageObjectModel/
 /SeleniumTest/
+/BrowserTest.class
+/DesiredCapabilitiesDemo.class
+/utils/
