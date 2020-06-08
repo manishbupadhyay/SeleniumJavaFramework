@@ -15,7 +15,7 @@ public class DesiredCapabilitiesDemo {
 		dc.setCapability("ignoreProtectedModeSettings", true);
 		
 		WebDriverManager.iedriver().setup();
-		WebDriver driver = new InternetExplorerDriver(dc);
+		WebDriver driver = new InternetExplorerDriver();
 		
 		driver.get("http://google.com");
 		driver.findElement(By.name("q")).sendKeys("SOftware Development Engineer Test");
