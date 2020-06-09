@@ -24,11 +24,12 @@ public class ExceptionHandlingDemo {
 	
 	// second way
 	public static void demo() throws Exception {
-		System.out.println("Welcome to Selenium");
+		System.out.println("Welcome to Exception Handling");
 		// throw : we can throw exception with help of throw keyword
-		throw new ArithmeticException("Invalid operation");
-		/*
-		 * int i = 1/0; System.out.println("Completed");
-		 */
+		//throw new ArithmeticException("Invalid operation");
+		
+		  int i = 1/0; 
+		  System.out.println("Completed");
+		 
 	}
 }
