@@ -1,41 +1,97 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35180" started-at="2020-06-09T00:22:17 IST" finished-at="2020-06-09T00:22:52 IST">
+  <suite name="Default suite" duration-ms="54644" started-at="2020-06-09T20:51:51 IST" finished-at="2020-06-09T20:52:45 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35180" started-at="2020-06-09T00:22:17 IST" finished-at="2020-06-09T00:22:52 IST">
-      <class name="SeleniumTest.ExtentReportsDemoWithTestNG">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@646d64ab]" name="setUp" is-config="true" duration-ms="240" started-at="2020-06-09T00:22:17 IST" finished-at="2020-06-09T00:22:17 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="setUpTest()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@646d64ab]" name="setUpTest" is-config="true" duration-ms="5365" started-at="2020-06-09T00:22:17 IST" finished-at="2020-06-09T00:22:22 IST">
+    <test name="Default test" duration-ms="54644" started-at="2020-06-09T20:51:51 IST" finished-at="2020-06-09T20:52:45 IST">
+      <class name="utils.ExcelDataProvider">
+        <test-method status="PASS" signature="setUpTest()[pri:0, instance:utils.ExcelDataProvider@76f2b07d]" name="setUpTest" is-config="true" duration-ms="18539" started-at="2020-06-09T20:51:51 IST" finished-at="2020-06-09T20:52:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@646d64ab]" name="test1" duration-ms="45" started-at="2020-06-09T00:22:22 IST" finished-at="2020-06-09T00:22:22 IST">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@76f2b07d]" name="test1" duration-ms="9965" started-at="2020-06-09T20:52:10 IST" data-provider="test1data" finished-at="2020-06-09T20:52:20 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@646d64ab]" name="test2" duration-ms="5" started-at="2020-06-09T00:22:22 IST" finished-at="2020-06-09T00:22:22 IST">
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@76f2b07d]" name="test1" duration-ms="5993" started-at="2020-06-09T20:52:20 IST" data-provider="test1data" finished-at="2020-06-09T20:52:26 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Manish]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[manish061291]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="testExtentReportWithTestNG()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@646d64ab]" name="testExtentReportWithTestNG" duration-ms="14952" started-at="2020-06-09T00:22:22 IST" finished-at="2020-06-09T00:22:37 IST">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@76f2b07d]" name="test1" duration-ms="6407" started-at="2020-06-09T20:52:26 IST" data-provider="test1data" finished-at="2020-06-09T20:52:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin12345]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testExtentReportWithTestNG -->
-        <test-method status="PASS" signature="tearDownTest()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@646d64ab]" name="tearDownTest" is-config="true" duration-ms="14759" started-at="2020-06-09T00:22:37 IST" finished-at="2020-06-09T00:22:52 IST">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@76f2b07d]" name="test1" duration-ms="6034" started-at="2020-06-09T20:52:33 IST" data-provider="test1data" finished-at="2020-06-09T20:52:39 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Roshani]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[roshani101194]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:SeleniumTest.ExtentReportsDemoWithTestNG@646d64ab]" name="tearDown" is-config="true" duration-ms="566" started-at="2020-06-09T00:22:52 IST" finished-at="2020-06-09T00:22:53 IST">
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1(java.lang.String, java.lang.String)[pri:0, instance:utils.ExcelDataProvider@76f2b07d]" name="test1" duration-ms="6503" started-at="2020-06-09T20:52:39 IST" data-provider="test1data" finished-at="2020-06-09T20:52:45 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Aadi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[aadi4417]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- SeleniumTest.ExtentReportsDemoWithTestNG -->
+        </test-method> <!-- test1 -->
+      </class> <!-- utils.ExcelDataProvider -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

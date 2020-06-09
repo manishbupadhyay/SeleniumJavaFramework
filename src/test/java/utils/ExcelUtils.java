@@ -21,49 +21,55 @@ public class ExcelUtils {
 	
 	public static void main(String[] args) {
 		getRowCount();
+		getColumnCount();
 		getCellDataString(0,0);
 		getCellDataNumber(1,1);
 	}
 
-	public static void getRowCount() {
+	public static int getRowCount() {
+		int rowCount = 0;
 		try {
-			int rowCount = sheet.getPhysicalNumberOfRows();
+			rowCount = sheet.getPhysicalNumberOfRows();
 			System.out.println("No of rows: " + rowCount);
 		} catch(Exception e) {
 			System.out.println(e.getMessage());
 			System.out.println(e.getCause());
 			e.printStackTrace();
 		}
+		return rowCount;
 
 	}
 	
-	public static void columnCount() {
+	public static int getColumnCount() {
+		int colCount = 0;
 		try {
-			int colCount = sheet.getRow(0).getPhysicalNumberOfCells();
+			colCount = sheet.getRow(0).getPhysicalNumberOfCells();
 			System.out.println("No of Columns : " + colCount);
 		} catch(Exception e) {
 			System.out.println(e.getMessage());
 			System.out.println(e.getCause());
 			e.printStackTrace();
 		}
+		return colCount;
 	}
 	
-	public static void getCellDataString(int rowNum, int colNum) {
-		
+	public static String getCellDataString(int rowNum, int colNum) {
+		String cellData = null;
 		try {
-			String cellData = sheet.getRow(rowNum).getCell(colNum).getStringCellValue();
+			cellData = sheet.getRow(rowNum).getCell(colNum).getStringCellValue();
 			System.out.println("Cell data : " + cellData);
 		}catch(Exception e) {
 			System.out.println(e.getMessage());
 			System.out.println(e.getCause());
 			e.printStackTrace();
 		}
+		return cellData;
 	}
 	
 public static void getCellDataNumber(int rowNum,int colNum) {
 		
 		try {
-			double cellDataNumber = sheet.getRow(rowNum).getCell(colNum).getNumericCellValue();
+			String cellDataNumber = sheet.getRow(rowNum).getCell(colNum).getStringCellValue();
 			System.out.println("Cell data Number : " + cellDataNumber);
 		}catch(Exception e) {
 			System.out.println(e.getMessage());
