@@ -8,7 +8,7 @@ public class ExcelUtilsDemo {
 		ExcelUtils excel = new ExcelUtils(projectPath + "/excel/data.xlsx", "Sheet1");
 				
 		excel.getRowCount();
-		excel.columnCount();
+		excel.getColumnCount();
 		excel.getCellDataString(0, 0);
 		excel.getCellDataNumber(1, 1);
 	}
