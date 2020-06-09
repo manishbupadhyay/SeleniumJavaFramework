@@ -3,13 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SeleniumTest.TestNG_Demo">
+      <class name="listeners.TestNGListenerDemo">
         <methods>
-          <include name="tearDownTest"/>
-          <include name="setUpTest"/>
-          <include name="googleSearch"/>
+          <include name="test3"/>
+          <include name="test2"/>
         </methods>
-      </class> <!-- SeleniumTest.TestNG_Demo -->
+      </class> <!-- listeners.TestNGListenerDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
