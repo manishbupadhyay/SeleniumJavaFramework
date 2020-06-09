@@ -28,3 +28,8 @@
 [WARN ] 2020-05-10 01:50:27.585 [main] Log4jDemoWithLog4jXML - this is warn message
 [INFO ] 2020-05-10 02:00:53.659 [main] Log4jDemoWithLog4jXML - this is info message
 [WARN ] 2020-05-10 02:00:54.382 [main] Log4jDemoWithLog4jXML - this is warn message
+[TRACE] 2020-06-09 13:28:33.050 [main] Log4jDemo - This is trace message
+[INFO ] 2020-06-09 13:28:33.062 [main] Log4jDemo - This is information message
+[ERROR] 2020-06-09 13:28:33.062 [main] Log4jDemo - This is error message
+[WARN ] 2020-06-09 13:28:33.062 [main] Log4jDemo - This is warning message
+[FATAL] 2020-06-09 13:28:33.062 [main] Log4jDemo - This is fatal message
