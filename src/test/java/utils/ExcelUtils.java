@@ -37,6 +37,17 @@ public class ExcelUtils {
 
 	}
 	
+	public static void columnCount() {
+		try {
+			int colCount = sheet.getRow(0).getPhysicalNumberOfCells();
+			System.out.println("No of Columns : " + colCount);
+		} catch(Exception e) {
+			System.out.println(e.getMessage());
+			System.out.println(e.getCause());
+			e.printStackTrace();
+		}
+	}
+	
 	public static void getCellDataString(int rowNum, int colNum) {
 		
 		try {
