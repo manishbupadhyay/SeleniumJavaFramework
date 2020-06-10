@@ -1,78 +1,44 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="71733" started-at="2020-06-10T16:31:18 IST" finished-at="2020-06-10T16:32:30 IST">
+  <suite name="Suite" duration-ms="117" started-at="2020-06-10T19:07:04 IST" finished-at="2020-06-10T19:07:04 IST">
     <groups>
+      <group name="linux.regression">
+        <method signature="TestNGGroupsDemo.test3()[pri:0, instance:testng.TestNGGroupsDemo@74650e52]" name="test3" class="testng.TestNGGroupsDemo"/>
+      </group> <!-- linux.regression -->
+      <group name="windows.regression">
+        <method signature="TestNGGroupsDemo.test2()[pri:0, instance:testng.TestNGGroupsDemo@74650e52]" name="test2" class="testng.TestNGGroupsDemo"/>
+      </group> <!-- windows.regression -->
+      <group name="sanity">
+        <method signature="TestNGGroupsDemo.test1()[pri:0, instance:testng.TestNGGroupsDemo@74650e52]" name="test1" class="testng.TestNGGroupsDemo"/>
+      </group> <!-- sanity -->
+      <group name="AllClassTests">
+        <method signature="TestNGGroupsDemo.test1()[pri:0, instance:testng.TestNGGroupsDemo@74650e52]" name="test1" class="testng.TestNGGroupsDemo"/>
+        <method signature="TestNGGroupsDemo.test2()[pri:0, instance:testng.TestNGGroupsDemo@74650e52]" name="test2" class="testng.TestNGGroupsDemo"/>
+        <method signature="TestNGGroupsDemo.test3()[pri:0, instance:testng.TestNGGroupsDemo@74650e52]" name="test3" class="testng.TestNGGroupsDemo"/>
+        <method signature="TestNGGroupsDemo.test4()[pri:0, instance:testng.TestNGGroupsDemo@74650e52]" name="test4" class="testng.TestNGGroupsDemo"/>
+      </group> <!-- AllClassTests -->
     </groups>
-    <test name="TestOnChrome" duration-ms="25178" started-at="2020-06-10T16:31:18 IST" finished-at="2020-06-10T16:31:44 IST">
-      <class name="testng.TestNGMultiBrowserDemo">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testng.TestNGMultiBrowserDemo@e320068]" name="setup" is-config="true" duration-ms="5891" started-at="2020-06-10T16:31:18 IST" finished-at="2020-06-10T16:31:24 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:testng.TestNGMultiBrowserDemo@e320068]" name="test1" duration-ms="13821" started-at="2020-06-10T16:31:24 IST" finished-at="2020-06-10T16:31:38 IST">
+    <test name="Test" duration-ms="117" started-at="2020-06-10T19:07:04 IST" finished-at="2020-06-10T19:07:04 IST">
+      <class name="testng.TestNGGroupsDemo">
+        <test-method status="PASS" signature="test1()[pri:0, instance:testng.TestNGGroupsDemo@74650e52]" name="test1" duration-ms="14" started-at="2020-06-10T19:07:04 IST" finished-at="2020-06-10T19:07:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testng.TestNGMultiBrowserDemo@e320068]" name="teardown" is-config="true" duration-ms="5402" started-at="2020-06-10T16:31:38 IST" finished-at="2020-06-10T16:31:44 IST">
+        <test-method status="PASS" signature="test2()[pri:0, instance:testng.TestNGGroupsDemo@74650e52]" name="test2" duration-ms="3" started-at="2020-06-10T19:07:04 IST" finished-at="2020-06-10T19:07:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testng.TestNGMultiBrowserDemo -->
-    </test> <!-- TestOnChrome -->
-    <test name="TestOnFirefox" duration-ms="56248" started-at="2020-06-10T16:31:18 IST" finished-at="2020-06-10T16:32:15 IST">
-      <class name="testng.TestNGMultiBrowserDemo">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testng.TestNGMultiBrowserDemo@2173f6d9]" name="setup" is-config="true" duration-ms="20881" started-at="2020-06-10T16:31:18 IST" finished-at="2020-06-10T16:31:39 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[firefox]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:testng.TestNGGroupsDemo@74650e52]" name="test3" duration-ms="5" started-at="2020-06-10T19:07:04 IST" finished-at="2020-06-10T19:07:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:testng.TestNGMultiBrowserDemo@2173f6d9]" name="test1" duration-ms="23150" started-at="2020-06-10T16:31:39 IST" finished-at="2020-06-10T16:32:02 IST">
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:testng.TestNGGroupsDemo@74650e52]" name="test4" duration-ms="4" started-at="2020-06-10T19:07:04 IST" finished-at="2020-06-10T19:07:04 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testng.TestNGMultiBrowserDemo@2173f6d9]" name="teardown" is-config="true" duration-ms="12202" started-at="2020-06-10T16:32:02 IST" finished-at="2020-06-10T16:32:15 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testng.TestNGMultiBrowserDemo -->
-    </test> <!-- TestOnFirefox -->
-    <test name="TestOnIE" duration-ms="71733" started-at="2020-06-10T16:31:18 IST" finished-at="2020-06-10T16:32:30 IST">
-      <class name="testng.TestNGMultiBrowserDemo">
-        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:testng.TestNGMultiBrowserDemo@631330c]" name="setup" is-config="true" duration-ms="41045" started-at="2020-06-10T16:31:18 IST" finished-at="2020-06-10T16:31:59 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[ie]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method status="PASS" signature="test1()[pri:0, instance:testng.TestNGMultiBrowserDemo@631330c]" name="test1" duration-ms="30004" started-at="2020-06-10T16:31:59 IST" finished-at="2020-06-10T16:32:29 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:testng.TestNGMultiBrowserDemo@631330c]" name="teardown" is-config="true" duration-ms="668" started-at="2020-06-10T16:32:29 IST" finished-at="2020-06-10T16:32:30 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- testng.TestNGMultiBrowserDemo -->
-    </test> <!-- TestOnIE -->
+        </test-method> <!-- test4 -->
+      </class> <!-- testng.TestNGGroupsDemo -->
+    </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
