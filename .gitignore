@@ -5,3 +5,5 @@ test-output/Default suite/Default test.html
 test-output/Default suite/Default test.html
 test-output/Default suite/Default test.xml
 test-output/old/index.html
+*.xml
+*.html
