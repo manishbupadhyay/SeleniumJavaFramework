@@ -1,2 +1,2 @@
-@org.testng.annotations.Ignore
+//@org.testng.annotations.Ignore
 package testng;
