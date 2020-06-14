@@ -62,7 +62,24 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>4.1.2</version>
 		</dependency>
-
-
 	</dependencies>
+
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M4</version>
+				<!-- We can include or exclude test cases -->
+				<configuration>
+					<includes>
+						<include>GoogleSearchTest.java</include>
+					</includes>
+					<!-- <suiteXmlFiles> We can give any file name at run time in command 
+						line <suiteXmlFile>${testNGFile}</suiteXmlFile> </suiteXmlFiles> -->
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
 </project>
