@@ -51,38 +51,37 @@ public class HandleCalendarTest {
 		//*[@class='ui-datepicker-calendar']/table/tbody/tr[2]/td/table/tbody/tr[2]/td[2]
 		//*[@class='ui-datepicker-calendar']/table/tbody/tr[2]/td/table/tbody/tr[2]/td[6]
 
-		String beforeXpath =
-				"//*[@class='ui-datepicker-calendar']/table/tbody/tr[2]/td/table/tbody/tr["; String
-				afterXpath = "]/td[";
+		String beforeXpath = "//*[@class='ui-datepicker-calendar']/table/tbody/tr[2]/td/table/tbody/tr["; 
+		String afterXpath = "]/td[";
 
-				final int totalWeekDays = 7;
+		final int totalWeekDays = 7;
 
-				//2-1 2-2 2-3 2-4 2-5 2-6 2-7 //3-2 3-2 3-3 3-4 3-5 3-6 3-7 
-				boolean flag = false; 
-				String dayVal = null; for(int rowNum=2; rowNum<=7; rowNum++){
+		//2-1 2-2 2-3 2-4 2-5 2-6 2-7 //3-2 3-2 3-3 3-4 3-5 3-6 3-7 
+		boolean flag = false; 
+		String dayVal = null; for(int rowNum=2; rowNum<=7; rowNum++){
 
-					for(int colNum = 1; colNum<=totalWeekDays; colNum++){ 
-						try{ 
-							dayVal =driver.findElement(By.xpath(beforeXpath+rowNum+afterXpath+colNum+"]")).getText(); 
-						}catch (NoSuchElementException e)
-						{
-							System.out.println("Please enter a correct date value"); 
-							flag = false; 
-							break;
-						} 
-						System.out.println(dayVal); 
-						if(dayVal.equals(day)){
-							driver.findElement(By.xpath(beforeXpath+rowNum+afterXpath+colNum+"]")).click(); 
-							flag = true; 
-							break; 
-						} 
-					} 
-					if(flag)
-					{ 
-						break; 
-					}
+			for(int colNum = 1; colNum<=totalWeekDays; colNum++){ 
+				try{ 
+					dayVal =driver.findElement(By.xpath(beforeXpath+rowNum+afterXpath+colNum+"]")).getText(); 
+				}catch (NoSuchElementException e)
+				{
+					System.out.println("Please enter a correct date value"); 
+					flag = false; 
+					break;
+				} 
+				System.out.println(dayVal); 
+				if(dayVal.equals(day)){
+					driver.findElement(By.xpath(beforeXpath+rowNum+afterXpath+colNum+"]")).click(); 
+					flag = true; 
+					break; 
+				} 
+			} 
+			if(flag)
+			{ 
+				break; 
+			}
 
-				}
+		}
 
 
 
