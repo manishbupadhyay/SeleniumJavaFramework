@@ -2,10 +2,14 @@
 /BrowserNavigateBackAndForward/
 /BrowserPopUpWindow/
 /DragAndDrop/
+/ElementVisibilityTest/
 /FileUploadPopup/
 /FindElements/
+/HandleCalendar/
+/HandleDynamicGoogleSearch/
 /HeadLessBrowser/
 /HeadlessChrome/
+/JavaScriptExecutor/
 /JavaScriptPopup/
 /MouseMovement/
 /PageObjectModel/
@@ -18,7 +22,4 @@
 /listeners/
 /testng/
 /utils/
-/JavaScriptExecutor/
-/ElementVisibilityTest/
-/HandleDynamicGoogleSearch/
-/HandleCalendar/
+/FindBrokenLinksAndImages/
