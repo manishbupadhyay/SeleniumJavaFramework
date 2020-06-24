@@ -4,9 +4,11 @@
 /DragAndDrop/
 /ElementVisibilityTest/
 /FileUploadPopup/
+/FindBrokenLinksAndImages/
 /FindElements/
 /HandleCalendar/
 /HandleDynamicGoogleSearch/
+/HashMap/
 /HeadLessBrowser/
 /HeadlessChrome/
 /JavaScriptExecutor/
@@ -22,4 +24,3 @@
 /listeners/
 /testng/
 /utils/
-/FindBrokenLinksAndImages/
