@@ -1,25 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30103" started-at="2020-06-11T01:36:41 IST" finished-at="2020-06-11T01:37:11 IST">
+  <suite name="Default suite" duration-ms="29766" started-at="2020-06-26T00:09:17 IST" finished-at="2020-06-26T00:09:46 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30103" started-at="2020-06-11T01:36:41 IST" finished-at="2020-06-11T01:37:11 IST">
-      <class name="testng.TestNGRecordTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:testng.TestNGRecordTest@4493d195]" name="setUp" is-config="true" duration-ms="7552" started-at="2020-06-11T01:36:41 IST" finished-at="2020-06-11T01:36:49 IST">
+    <test name="Default test" duration-ms="29766" started-at="2020-06-26T00:09:17 IST" finished-at="2020-06-26T00:09:46 IST">
+      <class name="SingletonPatternDesign.FreeCRMTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:SingletonPatternDesign.FreeCRMTest@17776a8]" name="setUp" is-config="true" duration-ms="13691" started-at="2020-06-26T00:09:17 IST" finished-at="2020-06-26T00:09:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testUntitledTestCase1()[pri:0, instance:testng.TestNGRecordTest@4493d195]" name="testUntitledTestCase1" duration-ms="21734" started-at="2020-06-11T01:36:49 IST" finished-at="2020-06-11T01:37:10 IST">
+        <test-method status="PASS" signature="verifyFreeCRMTitleText()[pri:1, instance:SingletonPatternDesign.FreeCRMTest@17776a8]" name="verifyFreeCRMTitleText" duration-ms="64" started-at="2020-06-26T00:09:30 IST" finished-at="2020-06-26T00:09:30 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testUntitledTestCase1 -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testng.TestNGRecordTest@4493d195]" name="tearDown" is-config="true" duration-ms="755" started-at="2020-06-11T01:37:10 IST" finished-at="2020-06-11T01:37:11 IST">
+        </test-method> <!-- verifyFreeCRMTitleText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SingletonPatternDesign.FreeCRMTest@17776a8]" name="tearDown" is-config="true" duration-ms="826" started-at="2020-06-26T00:09:30 IST" finished-at="2020-06-26T00:09:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testng.TestNGRecordTest -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:SingletonPatternDesign.FreeCRMTest@17776a8]" name="setUp" is-config="true" duration-ms="14196" started-at="2020-06-26T00:09:31 IST" finished-at="2020-06-26T00:09:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="logoTest()[pri:2, instance:SingletonPatternDesign.FreeCRMTest@17776a8]" name="logoTest" duration-ms="139" started-at="2020-06-26T00:09:45 IST" finished-at="2020-06-26T00:09:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:SingletonPatternDesign.FreeCRMTest@17776a8]" name="tearDown" is-config="true" duration-ms="788" started-at="2020-06-26T00:09:46 IST" finished-at="2020-06-26T00:09:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- SingletonPatternDesign.FreeCRMTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

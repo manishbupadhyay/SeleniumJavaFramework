@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testng.TestNGRecordTest">
+      <class name="SingletonPatternDesign.FreeCRMTest">
         <methods>
-          <include name="testUntitledTestCase1"/>
           <include name="setUp"/>
           <include name="tearDown"/>
+          <include name="verifyFreeCRMTitleText"/>
         </methods>
-      </class> <!-- testng.TestNGRecordTest -->
+      </class> <!-- SingletonPatternDesign.FreeCRMTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
