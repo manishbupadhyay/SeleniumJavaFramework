@@ -3,13 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="SingletonPatternDesign.FreeCRMTest">
+      <class name="BarCode.BarCodeTest">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="verifyFreeCRMTitleText"/>
+          <include name="barCodeConcept"/>
         </methods>
-      </class> <!-- SingletonPatternDesign.FreeCRMTest -->
+      </class> <!-- BarCode.BarCodeTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

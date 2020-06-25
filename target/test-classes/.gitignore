@@ -1,4 +1,5 @@
 /AutoIT/
+/BarCode/
 /BrowserNavigateBackAndForward/
 /BrowserPopUpWindow/
 /DragAndDrop/
@@ -6,6 +7,7 @@
 /FileUploadPopup/
 /FindBrokenLinksAndImages/
 /FindElements/
+/HandleBasicAuthenticationPopUp/
 /HandleCalendar/
 /HandleDynamicGoogleSearch/
 /HashMap/
@@ -16,13 +18,13 @@
 /MouseMovement/
 /PageObjectModel/
 /PropertiesFile/
+/RightClick/
 /SauceLabs/
 /SeleniumTest/
 /SeleniumWaits/
+/SingletonPatternDesign/
 /TakeScreenshot/
 /config/
 /listeners/
 /testng/
 /utils/
-/HandleBasicAuthenticationPopUp/
-/SingletonPatternDesign/
