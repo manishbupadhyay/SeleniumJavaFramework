@@ -33,3 +33,8 @@
 [ERROR] 2020-06-09 13:28:33.062 [main] Log4jDemo - This is error message
 [WARN ] 2020-06-09 13:28:33.062 [main] Log4jDemo - This is warning message
 [FATAL] 2020-06-09 13:28:33.062 [main] Log4jDemo - This is fatal message
+[TRACE] 2020-07-06 17:35:47.231 [main] Log4jDemo - This is trace message
+[INFO ] 2020-07-06 17:35:47.277 [main] Log4jDemo - This is information message
+[ERROR] 2020-07-06 17:35:47.280 [main] Log4jDemo - This is error message
+[WARN ] 2020-07-06 17:35:47.284 [main] Log4jDemo - This is warning message
+[FATAL] 2020-07-06 17:35:47.292 [main] Log4jDemo - This is fatal message
