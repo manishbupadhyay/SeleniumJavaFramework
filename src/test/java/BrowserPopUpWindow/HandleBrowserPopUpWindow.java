@@ -18,7 +18,7 @@ public class HandleBrowserPopUpWindow {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver = new ChromeDriver();
 
-		driver.get("https://recruit.hirebridge.com/v3/careercenter/v2/details.aspx?jid=524050&cid=7601&locvalue=1013&source=Glassdoor");
+		driver.get("https://www.seleniumeasy.com/test/window-popup-modal-demo.html");
 
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
@@ -26,9 +26,9 @@ public class HandleBrowserPopUpWindow {
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(40, TimeUnit.SECONDS);
 
-		driver.findElement(By.xpath("//div[@class='buttons']//a[contains(text(),'Apply')]")).click();
+		driver.findElement(By.xpath("//a[normalize-space()='Follow On Twitter']")).click();
 
-		Thread.sleep(2000);
+		Thread.sleep(8000);
 
 		// now there are two browser window parent and child window
 		Set<String> handler = driver.getWindowHandles();
@@ -47,7 +47,7 @@ public class HandleBrowserPopUpWindow {
 		// now switch to child window
 		driver.switchTo().window(childWindowId);
 
-		Thread.sleep(2000);
+		Thread.sleep(8000);
 
 		// get browser title of child window
 		System.out.println("Child Browser title : " + driver.getTitle());
@@ -58,7 +58,7 @@ public class HandleBrowserPopUpWindow {
 		// again switch to parent browser window
 		driver.switchTo().window(parentWindowId);
 
-		Thread.sleep(2000);
+		Thread.sleep(8000);
 
 		// get browser title of parent window
 		System.out.println("Parent Browser title : " + driver.getTitle());

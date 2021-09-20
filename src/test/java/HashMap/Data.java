@@ -6,7 +6,7 @@ public class Data {
 	
 	public static HashMap<String, String> getUserLoginInfo(){
 		HashMap<String, String> userMap = new HashMap<String, String>();
-		userMap.put("customer", "manishuupadhyay_Aadi@4417");
+		userMap.put("customer", "manishaddi4417_Aadi@4417");
 		userMap.put("admin", "admin_test@123");
 		
 		return userMap;

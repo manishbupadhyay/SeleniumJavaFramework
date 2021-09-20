@@ -30,11 +30,11 @@ public class JavaScriptExecutorConcept {
 		driver.manage().timeouts().pageLoadTimeout(40, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 
-		driver.get("https://freecrm.co.in/");
+		driver.get("https://classic.crmpro.com/index.html");
 
 		//driver.findElement(By.xpath("//a//span[text()='Log In']//preceding-sibling::span[@class='icon icon-xs mdi-chart-bar']")).click();
 		//WebElement loginButton = driver.findElement(By.xpath("//a//span[text()='Log In']//preceding-sibling::span[@class='icon icon-xs mdi-chart-bar']"));
-		WebElement loginButton = driver.findElement(By.xpath("//a[text()='Sign Up']"));
+		WebElement loginButton = driver.findElement(By.xpath("//a[normalize-space()='Sign Up']"));
 
 		// call JavascriptExecutor Method
 		flash(loginButton, driver);
@@ -75,8 +75,8 @@ public class JavaScriptExecutorConcept {
 		// scroll page down
 		scrollPageDown(driver);
 
-		// find term of use element
-		WebElement termOfUse = driver.findElement(By.xpath("//a[text()='Terms of Use']"));
+		// find term & condition element
+		WebElement termOfUse = driver.findElement(By.xpath("//a[normalize-space()='Terms & Conditions']"));
 
 		// call scroll into view method to keep scrolling until find term of use link
 		scrollIntoView(termOfUse, driver);

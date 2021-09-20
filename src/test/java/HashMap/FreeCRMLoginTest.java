@@ -18,6 +18,7 @@ public class FreeCRMLoginTest {
 		WebDriver driver = new ChromeDriver();
 		
 		driver.get("https://classic.crmpro.com/");
+		driver.manage().window().maximize();
 		
 		String customerCrediantials = Data.getUserLoginInfo().get("customer");
 		String [] customerInfo = customerCrediantials.split("_");
@@ -35,6 +36,9 @@ public class FreeCRMLoginTest {
 		driver.switchTo().frame("mainpanel");
 		Select select = new Select(driver.findElement(By.name("slctMonth")));
 		select.selectByVisibleText(Data.monthMap().get(10));
+		
+		Thread.sleep(5000);
+		driver.close();
 
 	}
 

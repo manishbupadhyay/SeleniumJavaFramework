@@ -38,7 +38,7 @@ public class BarCodeTest {
 		Result result = new MultiFormatReader().decode(binaryBitmap);
 		
 		System.out.println(result.getText());
-		
+		Thread.sleep(20000);
 		driver.close();
 		driver.quit();
 	}
